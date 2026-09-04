@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'io-tpm-portfolio',
 
-  projectId: process.env.SANITY_STUDIO_PROJECT_ID || 'your_project_id_here',
+  projectId: process.env.SANITY_STUDIO_PROJECT_ID || 'cmyoqtrr',
   dataset: process.env.SANITY_STUDIO_DATASET || 'production',
 
   plugins: [structureTool(), visionTool()],
